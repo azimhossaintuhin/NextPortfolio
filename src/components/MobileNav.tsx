@@ -42,7 +42,7 @@ const MobileNav: FC = (): JSX.Element => {
   ];
 
   return (
-    <div className="fixed bottom-2 lg:hidden left-1/2 transform -translate-x-1/2 max-w-sm border-2 px-5 py-2 border-green-400 rounded-xl shadow-emerald-300 bg-white bg-opacity-20 backdrop-filter backdrop-blur-lg">
+    <div className="fixed bottom-2 lg:hidden left-1/2 transform -translate-x-1/2 max-w-sm border-2 px-5 py-2 border-green-400 rounded-xl shadow-emerald-300 bg-white bg-opacity-20 backdrop-filter backdrop-blur-lg z-50">
       <ul className="flex justify-center items-center gap-6">
         {MenuLinks.map((item: MenuItem, index: number) => (
           <li key={index} className="text-center">
