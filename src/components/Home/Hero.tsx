@@ -1,19 +1,20 @@
 "use client";
 import React from "react";
 // Components library 
-import { Boxes } from "./ui/background-boxes";
-import { FlipWords } from "./ui/flip-words";
-import { HoverBorderGradient } from "./ui/hover-border-gradient";
+import { Boxes } from "../ui/background-boxes";
+import { FlipWords } from "../ui/flip-words";
+import { HoverBorderGradient } from "../ui/hover-border-gradient";
 import { cn } from "@/utils/cn";
 // Third-party library
 import Lottie from 'react-lottie-player';
 // Importing assets
-import hero_animation from "../../public/lottie_files/hero.json";
+import hero_animation from "../../../public/lottie_files/hero.json";
 
 export default function Hero() {
   const words = ["Better", "Cute", "Beautiful", "Responsive"];
   return (
-    <div className="absolute top-0 w-full -z-20">
+    <section id='hero_section'>
+    <div className="">
       <div className="h-screen relative w-full overflow-hidden bg-slate-900 flex flex-col items-center justify-center">
         <div className="absolute inset-0 w-full h-full bg-slate-900 z-20 [mask-image:radial-gradient(transparent,white)] pointer-events-none" />
         {/* Background components */}
@@ -63,5 +64,6 @@ export default function Hero() {
         </div>
       </div>
     </div>
+    </section>
   );
 }

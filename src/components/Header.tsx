@@ -33,7 +33,7 @@ export default function Header(): JSX.Element {
   ];
 
   return (
-    <header className="lg:absolute lg:top-3 lg:left-1/2 lg:-translate-x-1/2 lg:w-9/12  w-full flex justify-between items-center bg-opacity-20 bg-[#0F172A] backdrop-filter backdrop-blur-lg border-b-2 lg:border-2 border-emerald-400 shadow-lg px-7 py-3  lg:rounded-full">
+    <header className=" z-40 lg:absolute lg:top-3 lg:left-1/2 lg:-translate-x-1/2 lg:w-9/12  w-full flex justify-between items-center bg-opacity-20 bg-[#0F172A] backdrop-filter backdrop-blur-lg border-b-2 lg:border-2 border-emerald-400 shadow-lg px-7 py-3  lg:rounded-full">
       {/* Logo part */}
       <div className="logo text-center m-auto lg:m-0">
         <h1 className="text-lg">

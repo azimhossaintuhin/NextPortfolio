@@ -23,12 +23,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className}`}>
-        <div className="relative w-full">
+       
         <Header></Header>
         <MobileNav></MobileNav>
   
         {children}
-        </div>
+      
         
         </body>
     </html>
