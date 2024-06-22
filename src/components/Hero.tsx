@@ -20,19 +20,19 @@ export default function Hero() {
         <Boxes />
 
         {/* Content */}
-        <div className="w-full h-full flex flex-col md:flex-row justify-between px-4 md:px-32 items-center mt-[18rem] md:mt-[5rem] z-20 text-wrap md:text-nowrap ">
-          <div className="text-gray-100 flex flex-col gap-3 w-full md:w-1/2 text-center md:text-left">
+        <div className="w-full h-full flex flex-col md:flex-row  justify-center  lg:justify-between px-4 md:px-32 items-center  md:mt-[5rem] z-20 text-wrap md:text-nowrap ">
+          <div className="text-gray-100 flex flex-col gap-3 w-full lg:w-1/2 text-center lg:text-left">
             <span className="text-emerald-400 text-2xl font-bold">Hey,</span>
-            <h4 className="text-2xl md:text-3xl  font-bold text-wrap md:text-nowrap">
+            <h4 className="text-2xl md:text-3xl  font-bold text-wrap lg:text-nowrap">
               Want To Build <FlipWords words={words} className="text-emerald-400" /> 
             </h4>
-            <h1 className="text-3xl md:text-5xl font-bold">Modern Web Application</h1>
+            <h1 className="text-3xl md:text-5xl font-bold">Modern Web <span className=" text-emerald-500 lg:text-gray-50"> Application</span> </h1>
             <p className="text-lg text-gray-300 mt-2 text-wrap">
               Join us in creating stunning, responsive web applications with beautiful designs and seamless performance.
             </p>
 
             {/* buttons */}
-            <div className="flex  gap-3 justify-center md:justify-start">
+            <div className="flex  gap-3 justify-center lg:justify-start">
               <HoverBorderGradient
                 containerClassName="rounded-full bg-transparent outline-none focus:outline-none"
                 as="button"
@@ -52,7 +52,7 @@ export default function Hero() {
           </div>
 
           {/* Lottie Animation */}
-          <div className="z-20 mt-8 md:mt-0">
+          <div className="z-20 hidden lg:block md:mt-0">
             <Lottie
               loop
               animationData={hero_animation}
