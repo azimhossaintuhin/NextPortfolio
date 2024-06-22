@@ -2,9 +2,14 @@
 import Card from "../Card"
 
 const About = ():JSX.Element => {
-  
+  // data interface
+  interface CardData {
+    title: string;
+    description: string;
+    image: string;
+  }
   // cards data
-  const cardsdata = [
+  const cardsdata:CardData[] = [
     {
       title:"Card 1",
       description:"Card 1 description",
@@ -32,7 +37,7 @@ const About = ():JSX.Element => {
  </div>
  <div className="md:grid md:grid-cols-2 md:gap-4  lg:w-1/2  w-full">
       {/* cards */}
-      {cardsdata.map((card , index) => ( <Card key={index}  title={card.title} description={card.description} image={card.image} counter={index}></Card>))}
+      {cardsdata.map((card:CardData , index:number):JSX.Element => ( <Card key={index}  title={card.title} description={card.description} image={card.image} counter={index}></Card>))}
      
       
     </div>
