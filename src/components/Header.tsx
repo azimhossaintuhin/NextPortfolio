@@ -16,7 +16,7 @@ export default function Header(): JSX.Element {
     },
     {
       name: "About",
-      link: "/about",
+      link: "#aboutME",
     },
     {
       name: "Services",

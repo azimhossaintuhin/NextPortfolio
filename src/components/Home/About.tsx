@@ -36,7 +36,7 @@ const About = (): JSX.Element => {
     },
   ];
   return (
-    <section className="w-full  lg:px-28 px-10 py-24   flex  lg:flex-row flex-col justify-center lg:justify-normal items-center gap-14 bg-slate-900">
+    <section id="aboutME" className="w-full  lg:px-28 py-20 md:py-24  px-4  flex  lg:flex-row flex-col justify-center lg:justify-normal items-center gap-14 bg-slate-900">
       {/* context */}
       <div className="lg:w-1/2 w-full flex flex-col justify-center lg:justify-start  lg:items-start items-center text-center lg:text-start  leading-7  ">
         <div className="">
