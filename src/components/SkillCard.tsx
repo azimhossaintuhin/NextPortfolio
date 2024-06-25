@@ -1,17 +1,19 @@
 "use client";
 
-import { Icon } from "next/dist/lib/metadata/types/metadata-types";
 import { IconType } from "react-icons";
 
 interface SkillCardProps {
     title: string;
-    icon :  IconType;
+    icon :  JSX.Element;
 }
 
 const SkillCard: React.FC<SkillCardProps> =  ({title , icon}):JSX.Element => {
     return (
-        <div>
-            <p className="text-white">Cards data </p>
+        <div className="px-10 py-5 border-2 border-green-400 rounded-md " >
+            <div className="flex justify-center items-center">
+                {icon}
+            </div>
+            <h3 className="text-white text-center text-2xl font-semibold mt-2">{title}</h3>
         </div>
     )
 }
