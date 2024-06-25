@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Rubik } from "next/font/google";
+
 import "./globals.css";
 // importing components
 import Header from "@/components/Header";
@@ -29,7 +30,7 @@ export default function RootLayout({
   
         {children}
       
-        
+       
         </body>
     </html>
   );
