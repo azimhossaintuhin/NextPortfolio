@@ -1,6 +1,5 @@
 // importing third party  modeuls  or libararies 
 "use client"
-import SkillCard from '@/components/SkillCard'
 import { HoverEffect } from '@/components/ui/card-hover-effect'
 import { FaBootstrap , FaHtml5 , FaCss3 , FaJs , FaPython , FaReact   } from "react-icons/fa";
 import { BiLogoTailwindCss } from "react-icons/bi";
