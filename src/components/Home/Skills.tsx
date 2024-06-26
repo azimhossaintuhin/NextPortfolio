@@ -23,57 +23,57 @@ const Skills: React.FC = (): JSX.Element => {
 
   const skills = [
     {
-      title: <FaHtml5 className="text-5xl text-white text-center" />,
+      title: <FaHtml5 className="text-5xl text-emerald-400 text-center" />,
       description: "HTML 5",
     },
     {
-      title: <FaCss3 className="text-5xl text-white" />,
+      title: <FaCss3 className="text-5xl text-emerald-400 " />,
       description: "CSS 3",
     },
     {
-      title: <FaBootstrap className="text-5xl text-white" />,
+      title: <FaBootstrap className="text-5xl text-emerald-400" />,
       description: "Bootstrap",
     },
     {
-      title: <BiLogoTailwindCss className="text-5xl text-white" />,
+      title: <BiLogoTailwindCss className="text-5xl text-emerald-400" />,
       description: "Tailwind CSS",
     },
     {
-      title: <FaJs className="text-5xl text-white" />,
+      title: <FaJs className="text-5xl text-emerald-400" />,
       description: "Javascript",
     },
     {
-      title: <DiJqueryLogo className="text-5xl text-white" />,
+      title: <DiJqueryLogo className="text-5xl text-emerald-400" />,
       description: "Jquery",
     },
     {
-      title: <FaReact className="text-5xl text-white" />,
+      title: <FaReact className="text-5xl text-emerald-400" />,
       description: "React JS",
     },
     {
-      title: <RiNextjsLine className="text-5xl text-white" />,
+      title: <RiNextjsLine className="text-5xl text-emerald-400" />,
       description: "Next JS",
     },
     {
-      title: <FaPython className="text-5xl text-white" />,
+      title: <FaPython className="text-5xl text-emerald-400" />,
       description: "Python",
     },
     {
-      title: <SiDjango className="text-5xl text-white" />,
+      title: <SiDjango className="text-5xl text-emerald-400" />,
       description: "Django",
     },
     {
-      title: <SiFastapi className="text-5xl text-white" />,
+      title: <SiFastapi className="text-5xl text-emerald-400" />,
       description: "Fast Api",
     },
     {
-      title: <SiRedis className="text-5xl text-white" />,
+      title: <SiRedis className="text-5xl text-emerald-400" />,
       description: "Redis",
     },
   ];
 
   return (
-    <section id="skills" className="w-full h-dvh mt-15 px-2">
+    <section id="skills" className="w-full h-dvh mt-60 md:mt-10 px-2">
       <div className="container  ">
         {/* content */}
         <div className="flex justify-center flex-col items-center mb-10">
