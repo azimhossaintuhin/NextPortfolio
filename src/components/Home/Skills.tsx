@@ -73,19 +73,19 @@ const Skills: React.FC = (): JSX.Element => {
   ];
 
   return (
-    <section id="skills" className="w-full h-dvh mt-60 md:mt-10 px-2">
+    <section id="skills" className="w-full h-dvh mt-40 md:mt-10 px-2">
       <div className="container  ">
         {/* content */}
         <div className="flex justify-center flex-col items-center mb-10">
           <h3 className="text-white text-5xl  font-bold mb-3">
             My <span className="text-emerald-400">Skills</span>
           </h3>
-          <p className="text-slate-100 font-semibold">
+          <p className="text-slate-100 font-semibold text-center">
             Here are my skills which I have working on for 4+ years
           </p>
         </div>
 
-        <div className="max-w-5xl mx-auto px-8">
+        <div className="max-w-5xl mx-auto px-3">
           <HoverEffect items={skills} />
         </div>
       </div>
