@@ -81,7 +81,7 @@ const  Skills: React.FC = ():JSX.Element => {
     ]
 
     return(
-       <section id="skills" className="w-full h-dvh py-12 px-32">
+       <section id="skills" className="w-full h-dvh mt-72 px-2">
         
         <div className="container  ">
             {/* content */}
@@ -91,7 +91,7 @@ const  Skills: React.FC = ():JSX.Element => {
             </div>
 
             <div className="max-w-5xl mx-auto px-8">
-      <HoverEffect items={skills} className='bg-transparent' />
+      <HoverEffect items={skills} />
     </div>
         </div>
 
