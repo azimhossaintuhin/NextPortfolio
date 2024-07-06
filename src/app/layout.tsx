@@ -23,7 +23,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-slate-900`}>
+      <body className={`${inter.className} bg-slate-900 relative`}>
        
         <Header></Header>
         <MobileNav></MobileNav>

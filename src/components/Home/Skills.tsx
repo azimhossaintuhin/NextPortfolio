@@ -73,7 +73,7 @@ const Skills: React.FC = (): JSX.Element => {
   ];
 
   return (
-    <section id="skills" className="w-full h-dvh mt-40 md:mt-10 px-2">
+    <section id="skills" className=" w-full h-auto lg:px-28 py-20 md:py-24  px-4  flex  lg:flex-row flex-col justify-center lg:justify-normal items-center gap-14 bg-slate-900 mt-64 md:mt-10">
       <div className="container  ">
         {/* content */}
         <div className="flex justify-center flex-col items-center mb-10">
