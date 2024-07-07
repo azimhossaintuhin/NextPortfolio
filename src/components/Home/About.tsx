@@ -60,7 +60,7 @@ const About = (): JSX.Element => {
           officia, repellendus facere!
         </p>
       </div>
-      <div className="md:grid md:grid-cols-2 md:gap-4    w-full">
+      <div className="md:grid md:grid-cols-2 md:gap-4    md:w-1/2 w-full ">
         {/* cards */}
         {cardsdata.map(
           (card: CardData, index: number): JSX.Element => (
