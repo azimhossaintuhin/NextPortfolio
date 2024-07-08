@@ -4,7 +4,7 @@ import Hero from "@/components/Home/Hero";
 import About from "@/components/Home/About";
 import Skills from "@/components/Home/Skills";
 import Portfolio from "@/components/Home/Portfolio";
-
+import Reviews from "@/components/Home/Reviews";
 
 export default function Home() : JSX.Element {
 return (
@@ -14,7 +14,7 @@ return (
 <About></About>
 <Skills></Skills>
 <Portfolio></Portfolio>
-
+<Reviews></Reviews>
 </>
 )
 }
